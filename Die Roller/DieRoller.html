@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel="stylesheet" href="DieRoller.css"></script>
+<script type="text/javascript" src="Scripts.js"></script>
+
+<header>
+    <img id="FabUlIcon" src="https://www.needgames.it/wp-content/uploads/2021/06/fu-logo-trasp.png">
+    <br>
+    Nero's not that legendary Fabula Ultima Dice roller! 
+</header>
+<body>
+    <div id="box">
+Die 1:
+<select id="die1">
+    <option value="" selected>Please select</option>
+    <option value="4">4</option>
+    <option value="6">6</option>
+    <option value="8">8</option>
+    <option value="10">10</option>
+    <option value="12">12</option>
+</select>
+<br> Die 2:
+<select id="die2">
+    <option value="" selected>Please select</option>
+    <option value="4">4</option>
+    <option value="6">6</option>
+    <option value="8">8</option>
+    <option value="10">10</option>
+    <option value="12">12</option>
+</select>
+<br>
+<button onclick="CommitCheck()">Roll die</button>
+<br>
+<p id="txtResults"></p>
+</div>
+</body>
+</html>
