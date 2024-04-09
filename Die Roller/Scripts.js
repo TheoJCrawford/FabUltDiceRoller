@@ -1,6 +1,6 @@
 const DIE_SIZES = [4,6,8,10,12];
 
-export function RollDie(dieSize)
+function RollDie(dieSize)
 {
     var die =Number(dieSize);
     
@@ -10,6 +10,7 @@ export function RollDie(dieSize)
     
     return Math.floor(Math.random() * die +1);
 }
+
 
 function CommitCheck()
 {

@@ -1,22 +1,26 @@
 header{
-    font-size: larger;
+    font-size: 2vw;
     
 }
 img
 {
-    max-width: fit-content;
+    max-width: 100%;
 }
 body{
-    background-color: hwb(180 98% 0%);
+    background-color: hsl(130, 32%, 93%);
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
 }
-
+select{
+    background-color: hsl(130, 40%, 93%);
+    border-radius: 5px;
+}
 button{
     max-width: 10vw;
     width:max-content;
+    background-color: hsl(130, 32%, 83%);
     border-radius: 10px;
-    border-color: aqua;
+    border-color: hsl(130, 32%, 98%);
 }
 
 #txtResults{
