@@ -1,5 +1,5 @@
 header{
-    font-size: 2vw;
+    font-size: 4vw;
     
 }
 img
@@ -8,16 +8,24 @@ img
 }
 body{
     background-color: hsl(130, 32%, 93%);
+    font-size: 2vw;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
 }
 select{
     background-color: hsl(130, 40%, 93%);
     border-radius: 5px;
+    width: 25vw;    
+}
+option
+{
+    background-color: hsl(130, 25%, 93%);
 }
 button{
     max-width: 10vw;
+    height: 6vw;
     width:max-content;
+    min-width: 70px;
     background-color: hsl(130, 32%, 83%);
     border-radius: 10px;
     border-color: hsl(130, 32%, 98%);
