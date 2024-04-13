@@ -15,7 +15,7 @@ function RollDie(dieSize)
 function CommitCheck()
 {
     let txtResults ="Test";
-    let TxtField = document.getElementById("txtResults");
+    let txtField = document.getElementById("txtResults");
     let d1 = RollDie(document.getElementById("die1").value);
     let d2 = RollDie(document.getElementById("die2").value);
 
@@ -26,13 +26,11 @@ function CommitCheck()
     else{
         txtResults = `${d1 + d2}, (${d1}, ${d2})`;
         if(d1 == d2 && d1 >=6){
-            txtResults = `Critical hit! ${d1}`;
-            TxtField.fontWieght = "bold";
+            txtResults = `<b>Critical hit! ${d1}</b>`;
         }
         else if(d1 == d2 && d1 == 1){
-            txtResults = `Fumble!`;
-            TxtField.fontWieght = "bold";
+            txtResults = `<b>Fumble!</b>`;
         }
     }
-    TxtField.textContent = txtResults;
+    txtField.innerHTML = txtResults;
 }
