@@ -15,7 +15,11 @@ body{
 select{
     background-color: hsl(130, 40%, 93%);
     border-radius: 5px;
-    width: auto;    
+    min-height: 2vh;
+    height:4vh;
+    min-height: 2vh;
+    width: 25%;   
+    font-size: 2vh; 
 }
 option
 {
@@ -23,15 +27,20 @@ option
 }
 button{
     max-width: 10vw;
-    height: 2vw;
-    width:max-content;
+    height: 4vh;
+    width: max-content;
     min-width: 70px;
     background-color: hsl(130, 32%, 83%);
     border-radius: 10px;
     border-color: hsl(130, 32%, 98%);
     box-shadow: 1px;
 }
-
+footer{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 90%;
+    
+}
 #txtResults{
     font-family: 'Times New Roman', Times, serif;
     font-size: 2vw;
